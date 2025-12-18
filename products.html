@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products - Home Appliances</title>
+    <link rel="stylesheet" href="style2.css">
+     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to Fonawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">My Appliances</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="offers.html">Offers</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+         <!-- Navbar -->
+     <div class="nav">
+    <nav class="navbar">
+        <div class="navbar_s3">
+            <i id="openbtn" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navbar_s2">
+            <input type="search" placeholder="Search on ARC">
+            <i class="fa-solid fa-magnifying-glass" style="color: #ccd0d7;"></i>
+        </div>
+         <div class="navbar_s1">
+
+            <h1>ARC</h1>
+        </div>
+       
+    </nav>
+    <div class="sidenav" id="sidenavbar">
+        <h3 id="closebtn">X</h3>
+        <h1><a href="./index.html">Home</a></h1>
+        <h1><a href="./products.html">Products</a></h1>
+        <h1><a href="./offers.html">Offer</a></h1>
+        <h1><a href="./contact.html">Contact</a></h1>
+    </div>
+    </div>
     </header>
 
     <main>
@@ -34,61 +52,61 @@
             <h2 class="section-title">Featured Products</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <img src="product1.jpg" alt="Smart Refrigerator">
+                    <img src="./Images/product1.avif" alt="Smart Refrigerator">
                     <div class="product-info">
                         <h3>Smart Wi-Fi Refrigerator</h3>
-                        <p>Keep your food fresh and organized with smart features.</p>
-                        <div class="price">$1,499.00</div>
+                        <p>Keep your food fresh & organized.</p>
+                        <div class="price">₹23,000</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <img src="product2.jpg" alt="High-Efficiency Washing Machine">
+                    <img src="./Images/product2.avif" alt="High-Efficiency Washing Machine">
                     <div class="product-info">
-                        <h3>High-Efficiency Washing Machine</h3>
+                        <h3>Efficiented Washing Machine</h3>
                         <p>Powerful cleaning with energy-saving technology.</p>
-                        <div class="price">$799.00</div>
+                        <div class="price">₹20,000</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <img src="product3.jpg" alt="Built-in Oven">
+                    <img src="./Images/product3.avif" alt="Built-in Oven">
                     <div class="product-info">
                         <h3>Sleek Built-in Oven</h3>
                         <p>Cook like a chef with precise temperature control.</p>
-                        <div class="price">$1,199.00</div>
+                        <div class="price">₹1,199</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <img src="product4.jpg" alt="Robot Vacuum Cleaner">
+                    <img src="./Images/product4.avif" alt="Robot Vacuum Cleaner">
                     <div class="product-info">
-                        <h3>Intelligent Robot Vacuum Cleaner</h3>
+                        <h3>Intelligent Robot Vacuum </h3>
                         <p>Effortless cleaning for a spotless home.</p>
-                        <div class="price">$349.00</div>
+                        <div class="price">₹5,400</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <img src="product5.jpg" alt="Dishwasher">
+                    <img src="./Images/product5.avif" alt="Dishwasher">
                     <div class="product-info">
                         <h3>Ultra-Quiet Dishwasher</h3>
                         <p>Sparkling dishes with minimal noise.</p>
-                        <div class="price">$649.00</div>
+                        <div class="price">₹11,499</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
 
                 <div class="product-card">
-                    <img src="product6.jpg" alt="Espresso Machine">
+                    <img src="./Images/product6.webp" alt="Espresso Machine">
                     <div class="product-info">
                         <h3>Automatic Espresso Machine</h3>
                         <p>Enjoy barista-quality coffee at home.</p>
-                        <div class="price">$299.00</div>
+                        <div class="price">₹2500</div>
                         <a href="#" class="btn">Add to Cart</a>
                     </div>
                 </div>
@@ -100,5 +118,6 @@
     <footer>
         <p>&copy; 2023 My Appliances. All rights reserved.</p>
     </footer>
+     <script src="script.js"></script>
 </body>
 </html>
